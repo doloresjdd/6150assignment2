@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log On to Your Library Account - Vallejo Public Library</title>
+</head>
+<body>
+    <header>
+        <h1>Log On to Your Library Account</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalog.html">CATALOG</a></li>
+                <li><a href="library-card.html">APPLY FOR a LIBRARY CARD</a></li>
+                <li><a href="logon.html">LOG ON to YOUR LIBRARY ACCOUNT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form action="submit_login.php" method="post">
+                <label for="libraryCardNumber">Library Card Number:</label>
+                <input type="text" id="libraryCardNumber" name="libraryCardNumber" required>
+
+                <label for="pin">PIN/Password:</label>
+                <input type="password" id="pin" name="pin" required>
+
+                <button type="submit">Log In</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at <a href="mailto:info@vallejolibrary.com">info@vallejolibrary.com</a></p>
+    </footer>
+</body>
+</html>
